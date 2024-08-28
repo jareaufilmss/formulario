@@ -8,14 +8,14 @@
 <body>
   <form action="https://formspree.io/f/xqazndyl" method="post">
     <p> Digite seu nome: </p>
-    <input type="text" name="Nome de Usuario" placeholder="Nome completo">
+    <input type="text" name="Nome de Usuario" placeholder="Nome completo" required>
     <br>
     <p> Digite seu email: </p>
-    <input type="email" name="" placeholder="email@gmail.com">
+    <input type="email" name="" placeholder="email@gmail.com" required>
     <br>
     <p> Você trabalha? </p>
-    <input type="radio" name="s ou n" value="sim"> sim
-    <input type="radio" name="s ou n" value="não"> não
+    <input type="radio" name="s ou n" value="sim" required> sim
+    <input type="radio" name="s ou n" value="não" required> não
     <br>
     <p> Selecione o seu estado: </p>
     <select name="Estados" id="">
@@ -39,7 +39,7 @@
     <p> Deixe sua reclamação aqui: </p>
     <textarea name="Comentário"></textarea>
     <br>
-    <input type="checkbox" name=""> Li, e concordo.
+    <input type="checkbox" name="" required> Li, e concordo.
     <br>
     <button type="button">Enviar</button>
     <button type="button">Cancelar</button>
